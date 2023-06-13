@@ -1,0 +1,242 @@
+body {
+    min-height: auto;
+    margin: 20px 70px 20px 70px;
+    font-family: sans-serif;
+    color: #262532;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.profile-pic-container {
+    padding: 15px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.contact-details-container {
+    overflow-wrap: break-word;
+}
+
+.highlight-container {
+    min-height: 230px;
+    background-color: #262532;
+    color: #fff;
+    padding: 2%;
+    overflow-wrap: break-word;
+}
+
+.highlight {
+    margin: 0 20px 0 20px;
+}
+
+.skills-body {
+    overflow-wrap: anywhere;
+}
+
+.margin-top-bottom-10px {
+    margin: 10px 0 10px 0;
+}
+
+.margin-top-bottom-5px {
+    margin: 5px 0 5px 0;
+}
+
+.margin-left-right-20px {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.padding-right-10px {
+    padding-right: 10px;
+}
+
+.margin-top-25px {
+    margin-top: 25px;
+}
+
+.skill-item {
+    display: inline-block;
+    background-color: #9d9d9d;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    margin: 5px;
+    color: #fff;
+}
+
+.duration-location-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.work-exp-sub-header-font-style {
+    color: #646464;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.work-exp-body {
+    overflow-wrap: break-word;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.certificates-items {
+    font-size: 16px;
+    padding: 0;
+}
+
+.certificates-items li {
+    margin-bottom: 5px;
+}
+
+.project-title {
+    font-size: 16px;
+}
+
+.language {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.intrest {
+    display: inline-block;
+    border: 1px solid #9d9d9d;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+.responsibilities-list ul, .projects-achievements-list ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 400px ) {
+    body {
+        margin: 20px;
+    }
+}
+
+@media (min-width: 401px ) {
+    body {
+        margin: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .main-container-large {
+        display: none;
+    }
+
+    .main-container-small {
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 601px ) {
+    
+    .main-container-large {
+        display: flex;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .main-container-small {
+        display: none;
+    }
+    
+    .left-body {
+        width: 30%;
+    }
+    
+    .right-body {
+        width: 70%;    
+    }
+    
+    .profile-pic-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px 15px 15px 15px;
+    }
+    
+    .profile-pic {
+        width: 100%;
+        border-radius: 50%;
+    }
+    
+    .highlight-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 10px 0 0;
+    }
+    
+    .certificates-items {
+        list-style: none;
+    }
+}
+
+@media (min-width: 769px ) {
+    body {
+        margin: 20px 50px;
+    }
+
+    .profile-pic-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .main-container-large {
+        font-size: 14px;
+    }
+
+    .left-body {
+        width: 25%;
+    }
+    
+    .right-body {
+        width: 75%;    
+    }
+}
+
+@media (min-width: 1025px ) {
+    body {
+        margin: 20px 70px;
+    }
+
+    .profile-pic {
+        width: 90%;
+        border-radius: 50%;
+    }
+
+    .main-container-large {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1201px ) {
+    .profile-pic {
+        width: 80%;
+        border-radius: 50%;
+    }
+}
